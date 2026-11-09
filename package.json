@@ -1,0 +1,14 @@
+{
+  "name": "xproxy-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runnable XProxy examples for Python, cURL, Playwright and Node.js.",
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "example:node": "node --env-file=.env examples/node/fetch.mjs",
+    "test": "node --test tests/node.test.mjs"
+  },
+  "dependencies": {"undici": "^7.0.0"},
+  "license": "MIT"
+}

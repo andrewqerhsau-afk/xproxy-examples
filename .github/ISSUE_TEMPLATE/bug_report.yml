@@ -1,0 +1,35 @@
+name: Example bug
+description: Report a reproducible problem with an example or its documentation.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "For account, billing or live-pool issues, contact https://t.me/XproxySUP. Remove all credentials before posting."
+  - type: dropdown
+    id: example
+    attributes:
+      label: Example
+      options: [cURL, Requests, HTTPX, Playwright, Node.js, Proxy-list API, Documentation]
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: OS and runtime versions
+      placeholder: "Ubuntu / Python 3.12 / Requests version"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and expected result
+      description: "Use placeholders. Do not paste real proxy URIs, API keys or login keys."
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Actual result
+      description: A redacted error summary or log.
+    validations:
+      required: true

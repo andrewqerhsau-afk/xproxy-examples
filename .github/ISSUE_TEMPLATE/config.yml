@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: XProxy account and billing support
+    url: https://t.me/XproxySUP
+    about: Help with payments, accounts and pool availability.
+  - name: Knowledge base
+    url: https://xproxy.space/knowledge-base
+    about: Getting started, protocols and troubleshooting.
